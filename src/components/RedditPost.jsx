@@ -1,40 +1,41 @@
-import React, { useEffect, useState } from 'react';
-import { isEmpty } from 'lodash';
-import { getPost } from 'api';
+import React, { PureComponent } from "react";
+import { getPost } from "api";
 
-const RedditPost = () => {
-	const [post, setPost] = useState({});
-	const [isFetching, setIsFetching] = useState(false);
-	const [error, setError] = useState(false);
-	// {hasOccurred: false, code: undefined, message: ''}
+export default class RedditPost extends PureComponent {
+  constructor() {
+    super();
+    this.state = {
+      post: {},
+      isFetching: false,
+      error: false,
+    };
+  }
 
-	useEffect(() => {
-		if(isEmpty(post) && !isFetching) {
-			setIsFetching(true);
-			try {
-				getPost().then((fetchedPost) => {
-					console.log('**fetchedPost', fetchedPost);
+  async componentDidMount() {
+    this.setState({ isFetching: true });
 
-					setPost(fetchedPost)});
-				// setPost(post);
-				setIsFetching(false)
-			} catch (e) {
-				setError(true);
-			}
-		}
-	}, [post, setPost, setError, setIsFetching, isFetching]);
+    await getPost().then((post) => {
+      this.setState({ post, isFetching: false });
+    });
+  }
 
-	if (isFetching) {
-		return <h1>loading...</h1>
-	}
+  render() {
+    const { isFetching, error, post } = this.state;
+    if (isFetching) {
+      return <h1>loading...</h1>;
+    }
 
-	if (error) {
-		return <h1>There was an error, fuck</h1>
-	}
-	console.log('**post', post);
-	return (
-		<h1>fuck yeah les go</h1>
-	)
+    if (error) {
+      return <h1>There was an error, fuck</h1>;
+    }
+    console.log("**post", post);
+    return (
+      <div>
+        <h1>fuck yeah les go</h1>
+        <h3>{JSON.stringify(post)}</h3>
+      </div>
+    );
+  }
 }
 
-export default RedditPost;
+// export default RedditPost;
