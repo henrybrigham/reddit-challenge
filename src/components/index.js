@@ -1,2 +1,2 @@
-import RedditPost from './RedditPost';
+import RedditPost from "./RedditPost/RedditPost";
 export { RedditPost };

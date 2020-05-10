@@ -1,5 +1,7 @@
 import React, { PureComponent } from "react";
 import { getPost } from "api";
+import PostTitle from "./PostTitle";
+import styles from "./RedditPost.module.css";
 
 export default class RedditPost extends PureComponent {
   constructor() {
@@ -28,14 +30,15 @@ export default class RedditPost extends PureComponent {
     if (error) {
       return <h1>There was an error, fuck</h1>;
     }
-    console.log("**post", post);
+
+    const { subreddit_name_prefixed } = post;
     return (
-      <div>
-        <h1>fuck yeah les go</h1>
-        <h3>{JSON.stringify(post)}</h3>
+      <div className={styles.postBackground}>
+        <div className={styles.postBuffer}>
+          <h3 className={styles.subRedditHeader}>{subreddit_name_prefixed}</h3>
+          <PostTitle post={post} />
+        </div>
       </div>
     );
   }
 }
-
-// export default RedditPost;

@@ -1,0 +1,29 @@
+.postBackground {
+  background-color: #f9f9f9;
+  width: 80%;
+  height: 80%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid silver;
+}
+
+.postBuffer {
+  width: 80%;
+}
+
+.subRedditHeader {
+  height: 16px;
+  width: 139px;
+  color: rgba(88, 88, 88, 0.87);
+  font-family: "Lucida Grande";
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  text-align: right;
+}
+
+.titleRow {
+  display: flex;
+  flex-direction: row;
+}
