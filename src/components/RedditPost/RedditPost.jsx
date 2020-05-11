@@ -1,6 +1,9 @@
 import React, { PureComponent } from "react";
+import { isEmpty } from "lodash";
 import { getPost } from "api";
 import PostTitle from "./PostTitle";
+import PostBody from "./PostBody";
+import CommentsList from "./CommentsList";
 import styles from "./RedditPost.module.css";
 
 export default class RedditPost extends PureComponent {
@@ -23,7 +26,7 @@ export default class RedditPost extends PureComponent {
 
   render() {
     const { isFetching, error, post } = this.state;
-    if (isFetching) {
+    if (isFetching || isEmpty(post)) {
       return <h1>loading...</h1>;
     }
 
@@ -37,6 +40,8 @@ export default class RedditPost extends PureComponent {
         <div className={styles.postBuffer}>
           <h3 className={styles.subRedditHeader}>{subreddit_name_prefixed}</h3>
           <PostTitle post={post} />
+          <PostBody post={post} />
+          <CommentsList post={post} />
         </div>
       </div>
     );

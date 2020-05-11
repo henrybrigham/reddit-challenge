@@ -1,11 +1,11 @@
 .postBackground {
   background-color: #f9f9f9;
   width: 80%;
-  height: 80%;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   border: 1px solid silver;
+  padding-top: 20px;
 }
 
 .postBuffer {
@@ -26,4 +26,46 @@
 .titleRow {
   display: flex;
   flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.score {
+  height: 20px;
+  width: 60px;
+  color: #2c2c2c;
+  font-family: "Lucida Grande";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding-right: 15px;
+  margin-top: 4px;
+}
+
+.title {
+  height: 28px;
+  width: 740.95px;
+  color: #2c2c2c;
+  font-family: "Lucida Grande";
+  font-size: 24px;
+  letter-spacing: -1px;
+  line-height: 28px;
+}
+
+.postBodyLine {
+  padding-bottom: 20px;
+}
+
+.postContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.postBody {
+  background-color: #f1f1f1;
+  padding: 15px;
+}
+
+.commentItem {
+  display: flex;
+  flex-direction: column;
 }

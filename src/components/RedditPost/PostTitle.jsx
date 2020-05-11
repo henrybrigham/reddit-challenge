@@ -1,4 +1,5 @@
 import React from "react";
+import { formatScore } from "utils";
 import styles from "./RedditPost.module.css";
 
 const PostTitle = ({ post }) => {
@@ -6,8 +7,8 @@ const PostTitle = ({ post }) => {
 
   return (
     <div className={styles.titleRow}>
-      <p>{score}</p>
-      <p>{title}</p>
+      <span className={styles.score}>{formatScore(`${score}`)}</span>
+      <span className={styles.title}>{title}</span>
     </div>
   );
 };
