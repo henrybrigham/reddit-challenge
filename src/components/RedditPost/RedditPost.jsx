@@ -13,6 +13,7 @@ export default class RedditPost extends PureComponent {
       post: {},
       isFetching: false,
       error: false,
+      comments: [],
     };
   }
 
@@ -24,8 +25,34 @@ export default class RedditPost extends PureComponent {
     });
   }
 
+  deleteComment = (id) => {
+    const { comments } = this.state.post;
+    const commentsToRemove = [];
+
+    const findLineage = (id) => {
+      const children = comments.filter((comment) => comment.parent_id === id);
+      children.forEach((child) => commentsToRemove.push(child.id));
+
+      if (children.length !== 0) {
+        children.forEach((child) => findLineage(child.id));
+      }
+    };
+
+    findLineage(id);
+
+    const newComments = comments
+      .filter((comment) => !commentsToRemove.includes(comment.id))
+      .filter((nextComment) => nextComment.id !== id);
+
+    const updatedPost = {
+      ...this.state.post,
+      comments: newComments,
+    };
+    this.setState({ post: updatedPost });
+  };
+
   render() {
-    const { isFetching, error, post } = this.state;
+    const { isFetching, error, post, comments } = this.state;
     if (isFetching || isEmpty(post)) {
       return <h1>loading...</h1>;
     }
@@ -37,12 +64,17 @@ export default class RedditPost extends PureComponent {
     const { subreddit_name_prefixed } = post;
     return (
       <div className={styles.postBackground}>
-        <div className={styles.postBuffer}>
+        <div className={styles.titleContainer}>
           <h3 className={styles.subRedditHeader}>{subreddit_name_prefixed}</h3>
           <PostTitle post={post} />
-          <PostBody post={post} />
         </div>
-        <CommentsList post={post} />
+
+        <div className={styles.postBuffer}>
+          <div className={styles.column}>
+            <PostBody post={post} comments={comments} />
+            <CommentsList post={post} deleteComment={this.deleteComment} />
+          </div>
+        </div>
       </div>
     );
   }

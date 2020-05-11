@@ -1,6 +1,5 @@
 .postBackground {
   background-color: #f9f9f9;
-  width: 80%;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -8,10 +7,34 @@
   padding-top: 20px;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 48px;
+}
+
+.titleContainer {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .postBuffer {
   width: 80%;
+  background: #ffffff;
+  padding: 20px;
+  max-width: 1024px;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding-bottom: 50px;
+}
+
+.postContent {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
 }
 
 .subRedditHeader {
@@ -28,7 +51,8 @@
 .titleRow {
   display: flex;
   flex-direction: row;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
+  padding-left: 7px;
 }
 
 .score {
@@ -39,13 +63,10 @@
   font-size: 16px;
   letter-spacing: 0;
   line-height: 18px;
-  padding-right: 15px;
-  margin-top: 4px;
+  margin-top: 7px;
 }
 
 .title {
-  height: 28px;
-  width: 740.95px;
   color: #2c2c2c;
   font-family: "Lucida Grande";
   font-size: 24px;
@@ -57,21 +78,30 @@
   padding-bottom: 20px;
 }
 
-.postContent {
+.column {
   display: flex;
   flex-direction: column;
 }
 
 .postBody {
   background-color: #f1f1f1;
-  padding: 15px;
+  padding: 20px 40px 20px 40px;
+  border-radius: 10px;
+}
+
+.commentsLength {
+  color: #2c2c2c;
+  font-family: "Lucida Grande";
+  font-size: 12px;
+  letter-spacing: -0.5px;
+  line-height: 15px;
+  padding-left: 10px;
 }
 
 .commentList {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  padding-top: 20px;
+  padding: 10px 0 0 42px;
 }
 
 .commentItem {
@@ -81,14 +111,13 @@
 }
 
 .authorLink {
-  height: 16px;
-  width: 83px;
   color: #36a3f0;
   font-family: "Lucida Grande";
   font-size: 12px;
   letter-spacing: 0.4px;
   line-height: 16px;
-  cursor: pointer;
+  padding: 0;
+  margin-right: 7px;
 }
 
 .lineCopy {
@@ -96,6 +125,7 @@
   height: 267px;
   width: 2px;
   border: 1px solid #ededed;
+  box-sizing: border-box;
 }
 
 .row {
@@ -103,18 +133,22 @@
   flex-direction: row;
 }
 
-.column {
+.commentColumn {
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .childComments {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
-  border-left: 0.5px solid silver;
-  padding-top: 10px;
+  border-left: 1px solid #ededed;
 }
 
 .commentBody {
@@ -123,9 +157,36 @@
   font-size: 14px;
   letter-spacing: 0.25px;
   line-height: 20px;
+  padding-top: 10px;
+  padding-right: 50px;
 }
 
-.deleteIcon {
+.deleteButton {
   margin-left: auto;
   margin-right: 30px;
 }
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.fromNow {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Roboto;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  text-align: right;
+}
+
+/* .postBackground {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid silver;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: center;
+} */

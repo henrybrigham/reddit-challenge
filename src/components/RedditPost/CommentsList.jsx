@@ -1,25 +1,16 @@
-import React, { useState, useCallback } from "react";
+import React from "react";
 import CommentItem from "./CommentItem";
 import styles from "./RedditPost.module.css";
 
-const CommentsList = ({ post }) => {
+const CommentsList = ({ post, deleteComment }) => {
   const { comments } = post;
-  const [commentList, setCommentList] = useState(comments);
-
-  const deleteComment = useCallback(
-    (id) => {
-      const newCommentList = commentList.filter((comment) => comment.id !== id);
-      setCommentList(newCommentList);
-    },
-    [commentList, setCommentList]
-  );
-
-  const childComments = commentList
+  const childComments = comments
     .filter((comment) => !comment.parent_id)
+    .sort((a, b) => a.created_utc - b.created_utc)
     .map((topLevelComment) => (
       <CommentItem
         comment={topLevelComment}
-        comments={commentList}
+        comments={comments}
         deleteComment={deleteComment}
       />
     ));

@@ -5,6 +5,7 @@ import styles from "./RedditPost.module.css";
 const PostBody = ({ post }) => {
   const { selftext } = post;
   const splitSelfText = selftext.split("\n\n");
+
   const postLines = splitSelfText.map((line, i) => {
     return (
       <p className={styles.postBodyLine} key={`body-line${i}`}>
@@ -13,16 +14,17 @@ const PostBody = ({ post }) => {
     );
   });
   const { comments } = post;
+
   return (
     <div className={styles.postBody}>
       <div className={styles.postContent}>{postLines}</div>
-      <div>
+      <div className={styles.row}>
         <img
           src={commentIcon}
           alt="comment icon"
           className={styles.commentIcon}
         />
-        <span className={styles.commentsLenght}>
+        <span className={styles.commentsLength}>
           {comments.length} comments
         </span>
       </div>
