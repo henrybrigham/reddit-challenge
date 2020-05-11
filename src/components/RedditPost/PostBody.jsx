@@ -12,9 +12,7 @@ const PostBody = ({ post }) => {
       </p>
     );
   });
-  console.log("Split", splitSelfText);
   const { comments } = post;
-
   return (
     <div className={styles.postBody}>
       <div className={styles.postContent}>{postLines}</div>

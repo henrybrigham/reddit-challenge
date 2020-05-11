@@ -6,6 +6,8 @@
   justify-content: center;
   border: 1px solid silver;
   padding-top: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .postBuffer {
@@ -65,7 +67,65 @@
   padding: 15px;
 }
 
+.commentList {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-top: 20px;
+}
+
 .commentItem {
   display: flex;
   flex-direction: column;
+  padding-top: 15px;
+}
+
+.authorLink {
+  height: 16px;
+  width: 83px;
+  color: #36a3f0;
+  font-family: "Lucida Grande";
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.lineCopy {
+  box-sizing: border-box;
+  height: 267px;
+  width: 2px;
+  border: 1px solid #ededed;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.childComments {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  border-left: 0.5px solid silver;
+  padding-top: 10px;
+}
+
+.commentBody {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Lucida Grande";
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+
+.deleteIcon {
+  margin-left: auto;
+  margin-right: 30px;
 }

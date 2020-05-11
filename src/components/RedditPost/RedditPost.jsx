@@ -41,8 +41,8 @@ export default class RedditPost extends PureComponent {
           <h3 className={styles.subRedditHeader}>{subreddit_name_prefixed}</h3>
           <PostTitle post={post} />
           <PostBody post={post} />
-          <CommentsList post={post} />
         </div>
+        <CommentsList post={post} />
       </div>
     );
   }
