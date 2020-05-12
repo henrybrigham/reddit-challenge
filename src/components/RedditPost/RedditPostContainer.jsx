@@ -3,6 +3,7 @@ import { isEmpty } from "lodash";
 import { getPost } from "api";
 import RedditPost from "./RedditPost";
 import loading from "assets/loading.gif";
+import styles from "./RedditPost.module.css";
 
 export default class RedditPostContainer extends PureComponent {
   constructor() {
@@ -10,7 +11,10 @@ export default class RedditPostContainer extends PureComponent {
     this.state = {
       post: {},
       isFetching: false,
-      error: false,
+      error: {
+        isError: false,
+        message: "",
+      },
     };
   }
 
@@ -21,18 +25,28 @@ export default class RedditPostContainer extends PureComponent {
         this.setState({ post, isFetching: false });
       });
     } catch (error) {
-      this.setState({ error: true, isFetching: false });
+      const errorState = {
+        isError: true,
+        message: error,
+      };
+      this.setState({ error: errorState, isFetching: false });
     }
   }
 
   render() {
     const { isFetching, error, post } = this.state;
-    if (isFetching || (isEmpty(post) && !error)) {
+    const { isError, message } = error;
+    if (isFetching || (isEmpty(post) && !isError)) {
       return <img src={loading} alt="loading" />;
     }
 
-    if (error) {
-      return <h1>There was an error, sorry</h1>;
+    if (isError) {
+      return (
+        <div className={styles.column}>
+          <h1>There was an error, sorry</h1>
+          <span>{`${message}`}</span>
+        </div>
+      );
     }
 
     return <RedditPost post={post} />;
