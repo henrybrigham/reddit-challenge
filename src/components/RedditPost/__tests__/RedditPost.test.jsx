@@ -306,4 +306,13 @@ describe.only("RedditPost", () => {
     const remainingComments = document.getElementsByClassName("commentColumn");
     expect(remainingComments.length).toEqual(7);
   });
+
+  it("should correctly delete comment and its children -case2", () => {
+    render(<RedditPost {...PROPS} />);
+    const button = document.getElementById(`comment-item-t1_f35vz2f-button`);
+    fireEvent.click(button);
+
+    const remainingComments = document.getElementsByClassName("commentColumn");
+    expect(remainingComments.length).toEqual(15);
+  });
 });
