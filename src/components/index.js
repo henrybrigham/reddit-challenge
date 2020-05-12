@@ -1,2 +1,2 @@
-import RedditPost from "./RedditPost/RedditPost";
-export { RedditPost };
+import RedditPostContainer from "./RedditPost/RedditPostContainer";
+export default RedditPostContainer;

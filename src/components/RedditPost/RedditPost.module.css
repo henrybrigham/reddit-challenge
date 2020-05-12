@@ -104,12 +104,6 @@
   padding: 10px 0 0 42px;
 }
 
-.commentItem {
-  display: flex;
-  flex-direction: column;
-  padding-top: 15px;
-}
-
 .authorLink {
   color: #36a3f0;
   font-family: "Lucida Grande";
@@ -136,7 +130,7 @@
 .commentColumn {
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .column {
@@ -181,12 +175,7 @@ button {
   text-align: right;
 }
 
-/* .postBackground {
-  border-radius: 5px;
+.topLevelComment {
   display: flex;
-  justify-content: center;
-  border: 1px solid silver;
-  padding-top: 20px;
   flex-direction: column;
-  align-items: center;
-} */
+}

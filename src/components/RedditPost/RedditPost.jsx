@@ -1,81 +1,58 @@
-import React, { PureComponent } from "react";
-import { isEmpty } from "lodash";
-import { getPost } from "api";
+import React, { useState, useCallback } from "react";
 import PostTitle from "./PostTitle";
 import PostBody from "./PostBody";
 import CommentsList from "./CommentsList";
 import styles from "./RedditPost.module.css";
 
-export default class RedditPost extends PureComponent {
-  constructor() {
-    super();
-    this.state = {
-      post: {},
-      isFetching: false,
-      error: false,
-      comments: [],
-    };
-  }
+const RedditPost = ({ post }) => {
+  const [savedPost, setPost] = useState(post);
 
-  async componentDidMount() {
-    this.setState({ isFetching: true });
+  const deleteComment = useCallback(
+    (id) => {
+      const commentsToRemove = [];
 
-    await getPost().then((post) => {
-      this.setState({ post, isFetching: false });
-    });
-  }
+      const findLineage = (id) => {
+        const children = savedPost.comments.filter(
+          (comment) => comment.parent_id === id
+        );
+        children.forEach((child) => commentsToRemove.push(child.id));
 
-  deleteComment = (id) => {
-    const { comments } = this.state.post;
-    const commentsToRemove = [];
+        if (children.length !== 0) {
+          children.forEach((child) => findLineage(child.id));
+        }
+      };
 
-    const findLineage = (id) => {
-      const children = comments.filter((comment) => comment.parent_id === id);
-      children.forEach((child) => commentsToRemove.push(child.id));
+      findLineage(id);
 
-      if (children.length !== 0) {
-        children.forEach((child) => findLineage(child.id));
-      }
-    };
+      const newComments = savedPost.comments
+        .filter((comment) => !commentsToRemove.includes(comment.id))
+        .filter((nextComment) => nextComment.id !== id);
 
-    findLineage(id);
+      const updatedPost = {
+        ...savedPost,
+        comments: newComments,
+      };
 
-    const newComments = comments
-      .filter((comment) => !commentsToRemove.includes(comment.id))
-      .filter((nextComment) => nextComment.id !== id);
+      setPost(updatedPost);
+    },
+    [savedPost, setPost]
+  );
 
-    const updatedPost = {
-      ...this.state.post,
-      comments: newComments,
-    };
-    this.setState({ post: updatedPost });
-  };
-
-  render() {
-    const { isFetching, error, post, comments } = this.state;
-    if (isFetching || isEmpty(post)) {
-      return <h1>loading...</h1>;
-    }
-
-    if (error) {
-      return <h1>There was an error, fuck</h1>;
-    }
-
-    const { subreddit_name_prefixed } = post;
-    return (
-      <div className={styles.postBackground}>
-        <div className={styles.titleContainer}>
-          <h3 className={styles.subRedditHeader}>{subreddit_name_prefixed}</h3>
-          <PostTitle post={post} />
-        </div>
-
-        <div className={styles.postBuffer}>
-          <div className={styles.column}>
-            <PostBody post={post} comments={comments} />
-            <CommentsList post={post} deleteComment={this.deleteComment} />
-          </div>
+  const { subreddit_name_prefixed, comments } = savedPost;
+  return (
+    <div className={styles.postBackground} id="reddit-post">
+      <div className={styles.titleContainer}>
+        <h3 className={styles.subRedditHeader}>{subreddit_name_prefixed}</h3>
+        <PostTitle post={savedPost} />
+      </div>
+      <div className={styles.postBuffer}>
+        <div className={styles.column}>
+          <PostBody post={savedPost} comments={comments} />
+          <CommentsList post={savedPost} deleteComment={deleteComment} />
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default RedditPost;

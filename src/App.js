@@ -1,12 +1,11 @@
 import React from "react";
-import { RedditPost } from "./components";
+import RedditPostContainer from "./components";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div></div>
-      <RedditPost />
+      <RedditPostContainer />
     </div>
   );
 }

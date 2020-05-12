@@ -7,7 +7,6 @@ export const getPost = async () => {
       return res.data;
     },
     (error) => {
-      console.log("error fetching reddit post json:", error);
       throw error;
     }
   );

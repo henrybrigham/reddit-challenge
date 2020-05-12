@@ -1,0 +1,1710 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RedditPost should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="postBackground"
+        id="reddit-post"
+      >
+        <div
+          class="titleContainer"
+        >
+          <h3
+            class="subRedditHeader"
+          >
+            r/unpopularopinion
+          </h3>
+          <div
+            class="titleRow"
+          >
+            <span
+              class="score"
+            >
+              20.7k
+            </span>
+            <span
+              class="title"
+            >
+              Taking showers with your socks on is so much better than not
+            </span>
+          </div>
+        </div>
+        <div
+          class="postBuffer"
+        >
+          <div
+            class="column"
+          >
+            <div
+              class="postBody"
+            >
+              <div
+                class="postContent"
+              >
+                <p
+                  class="postBodyLine"
+                >
+                  I almost always shower with my socks on. It just feels more relaxing, I don’t really like the feeling of water below my feet. Having socks on, even light ones, feels like a nice towel to put around my feet when I’m showering. It’s just better this way. I’ve done this since I was like, 8, and I don’t ever plan on changing it. When I told my friends about it they all said it was really weird. I just think it is more comfortable, relaxing, and overall a better experience.
+                </p>
+                <p
+                  class="postBodyLine"
+                >
+                  Edit: jeez I really didn’t think that this was a big deal.
+                </p>
+                <p
+                  class="postBodyLine"
+                >
+                  Edit 2: To address some things:Yes, I actually do this, I personally like it, and it really isn’t problematic so I do it. My feet aren’t always super clean but I rub lotion on them occasionally.
+                </p>
+                <p
+                  class="postBodyLine"
+                >
+                  Edit 3: well I went to sleep, and now I have 953 notifications.
+                </p>
+              </div>
+              <div
+                class="row"
+              >
+                <img
+                  alt="comment icon"
+                  class="commentIcon"
+                  src="commentIcon.svg"
+                />
+                <span
+                  class="commentsLength"
+                >
+                  16
+                   comments
+                </span>
+              </div>
+            </div>
+            <div
+              class="commentList"
+            >
+              <div
+                class="column topLevelComment"
+                id="comment-item-t1_f35vz2f"
+              >
+                <div
+                  class="commentColumn"
+                >
+                  <div
+                    class="row"
+                  >
+                    <button
+                      class="authorLink"
+                    >
+                      RandomName01
+                    </button>
+                    <span
+                      class="fromNow"
+                    >
+                      7 months ago
+                    </span>
+                    <button
+                      class="deleteButton"
+                      id="comment-item-t1_f35vz2f-button"
+                    >
+                      <img
+                        alt="delete icon"
+                        src="deleteIcon.svg"
+                      />
+                    </button>
+                  </div>
+                  <span
+                    class="commentBody"
+                  >
+                    <p
+                      class="postBodyLine"
+                      id="t1_f35vz2f-post-line-0"
+                    >
+                      Bruh
+                    </p>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="column topLevelComment"
+                id="comment-item-t1_f35nn9e"
+              >
+                <div
+                  class="commentColumn"
+                >
+                  <div
+                    class="row"
+                  >
+                    <button
+                      class="authorLink"
+                    >
+                      shantanu011
+                    </button>
+                    <span
+                      class="fromNow"
+                    >
+                      7 months ago
+                    </span>
+                    <button
+                      class="deleteButton"
+                      id="comment-item-t1_f35nn9e-button"
+                    >
+                      <img
+                        alt="delete icon"
+                        src="deleteIcon.svg"
+                      />
+                    </button>
+                  </div>
+                  <span
+                    class="commentBody"
+                  >
+                    <p
+                      class="postBodyLine"
+                      id="t1_f35nn9e-post-line-0"
+                    >
+                      97% Disagree it's the most unpopular opinion I've seen here after that guy who wanted to be pregnant
+                    </p>
+                  </span>
+                </div>
+                <div
+                  class="childComments"
+                >
+                  <div
+                    class="column undefined"
+                    id="comment-item-t1_f361yrc"
+                  >
+                    <div
+                      class="commentColumn"
+                    >
+                      <div
+                        class="row"
+                      >
+                        <button
+                          class="authorLink"
+                        >
+                          HansenTakeASeat
+                        </button>
+                        <span
+                          class="fromNow"
+                        >
+                          7 months ago
+                        </span>
+                        <button
+                          class="deleteButton"
+                          id="comment-item-t1_f361yrc-button"
+                        >
+                          <img
+                            alt="delete icon"
+                            src="deleteIcon.svg"
+                          />
+                        </button>
+                      </div>
+                      <span
+                        class="commentBody"
+                      >
+                        <p
+                          class="postBodyLine"
+                          id="t1_f361yrc-post-line-0"
+                        >
+                          Am I pregegnant or am I ok?
+                        </p>
+                      </span>
+                    </div>
+                    <div
+                      class="childComments"
+                    >
+                      <div
+                        class="column undefined"
+                        id="comment-item-t1_f36daww"
+                      >
+                        <div
+                          class="commentColumn"
+                        >
+                          <div
+                            class="row"
+                          >
+                            <button
+                              class="authorLink"
+                            >
+                              _Noot_Noot
+                            </button>
+                            <span
+                              class="fromNow"
+                            >
+                              7 months ago
+                            </span>
+                            <button
+                              class="deleteButton"
+                              id="comment-item-t1_f36daww-button"
+                            >
+                              <img
+                                alt="delete icon"
+                                src="deleteIcon.svg"
+                              />
+                            </button>
+                          </div>
+                          <span
+                            class="commentBody"
+                          >
+                            <p
+                              class="postBodyLine"
+                              id="t1_f36daww-post-line-0"
+                            >
+                              Can you get.....PREGANTE
+                            </p>
+                          </span>
+                        </div>
+                        <div
+                          class="childComments"
+                        >
+                          <div
+                            class="column undefined"
+                            id="comment-item-t1_f36fubr"
+                          >
+                            <div
+                              class="commentColumn"
+                            >
+                              <div
+                                class="row"
+                              >
+                                <button
+                                  class="authorLink"
+                                >
+                                  Macho_Mans_Ghost
+                                </button>
+                                <span
+                                  class="fromNow"
+                                >
+                                  7 months ago
+                                </span>
+                                <button
+                                  class="deleteButton"
+                                  id="comment-item-t1_f36fubr-button"
+                                >
+                                  <img
+                                    alt="delete icon"
+                                    src="deleteIcon.svg"
+                                  />
+                                </button>
+                              </div>
+                              <span
+                                class="commentBody"
+                              >
+                                <p
+                                  class="postBodyLine"
+                                  id="t1_f36fubr-post-line-0"
+                                >
+                                  #AM I GREGNANT?!
+                                </p>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="column undefined"
+                    id="comment-item-t1_f35y9gp"
+                  >
+                    <div
+                      class="commentColumn"
+                    >
+                      <div
+                        class="row"
+                      >
+                        <button
+                          class="authorLink"
+                        >
+                          ShitOnMyArsehole
+                        </button>
+                        <span
+                          class="fromNow"
+                        >
+                          7 months ago
+                        </span>
+                        <button
+                          class="deleteButton"
+                          id="comment-item-t1_f35y9gp-button"
+                        >
+                          <img
+                            alt="delete icon"
+                            src="deleteIcon.svg"
+                          />
+                        </button>
+                      </div>
+                      <span
+                        class="commentBody"
+                      >
+                        <p
+                          class="postBodyLine"
+                          id="t1_f35y9gp-post-line-0"
+                        >
+                          Or the guy who likes sleeping in jeans
+                        </p>
+                        <p
+                          class="postBodyLine"
+                          id="t1_f35y9gp-post-line-1"
+                        >
+                          Edit: to everyone commenting, I meant the dude liked to get into bed at night with the duvet on with jeans, not just taking a nap
+                        </p>
+                      </span>
+                    </div>
+                    <div
+                      class="childComments"
+                    >
+                      <div
+                        class="column undefined"
+                        id="comment-item-t1_f36drup"
+                      >
+                        <div
+                          class="commentColumn"
+                        >
+                          <div
+                            class="row"
+                          >
+                            <button
+                              class="authorLink"
+                            >
+                              bellowingbullfinches
+                            </button>
+                            <span
+                              class="fromNow"
+                            >
+                              7 months ago
+                            </span>
+                            <button
+                              class="deleteButton"
+                              id="comment-item-t1_f36drup-button"
+                            >
+                              <img
+                                alt="delete icon"
+                                src="deleteIcon.svg"
+                              />
+                            </button>
+                          </div>
+                          <span
+                            class="commentBody"
+                          >
+                            <p
+                              class="postBodyLine"
+                              id="t1_f36drup-post-line-0"
+                            >
+                              Sleeping in jeans is fine on a couch or something, but not good in a bed under sheets.
+                            </p>
+                          </span>
+                        </div>
+                        <div
+                          class="childComments"
+                        >
+                          <div
+                            class="column undefined"
+                            id="comment-item-t1_f36efud"
+                          >
+                            <div
+                              class="commentColumn"
+                            >
+                              <div
+                                class="row"
+                              >
+                                <button
+                                  class="authorLink"
+                                >
+                                  ShitOnMyArsehole
+                                </button>
+                                <span
+                                  class="fromNow"
+                                >
+                                  7 months ago
+                                </span>
+                                <button
+                                  class="deleteButton"
+                                  id="comment-item-t1_f36efud-button"
+                                >
+                                  <img
+                                    alt="delete icon"
+                                    src="deleteIcon.svg"
+                                  />
+                                </button>
+                              </div>
+                              <span
+                                class="commentBody"
+                              >
+                                <p
+                                  class="postBodyLine"
+                                  id="t1_f36efud-post-line-0"
+                                >
+                                  Yeah but you don't purposely go to bed in jeans like the poster did
+                                </p>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="column undefined"
+                        id="comment-item-t1_f369ye5"
+                      >
+                        <div
+                          class="commentColumn"
+                        >
+                          <div
+                            class="row"
+                          >
+                            <button
+                              class="authorLink"
+                            >
+                              nikithb
+                            </button>
+                            <span
+                              class="fromNow"
+                            >
+                              7 months ago
+                            </span>
+                            <button
+                              class="deleteButton"
+                              id="comment-item-t1_f369ye5-button"
+                            >
+                              <img
+                                alt="delete icon"
+                                src="deleteIcon.svg"
+                              />
+                            </button>
+                          </div>
+                          <span
+                            class="commentBody"
+                          >
+                            <p
+                              class="postBodyLine"
+                              id="t1_f369ye5-post-line-0"
+                            >
+                              Or the guy who eats his cereal with water
+                            </p>
+                          </span>
+                        </div>
+                        <div
+                          class="childComments"
+                        >
+                          <div
+                            class="column undefined"
+                            id="comment-item-t1_f36ge9a"
+                          >
+                            <div
+                              class="commentColumn"
+                            >
+                              <div
+                                class="row"
+                              >
+                                <button
+                                  class="authorLink"
+                                >
+                                  Sazzybee
+                                </button>
+                                <span
+                                  class="fromNow"
+                                >
+                                  7 months ago
+                                </span>
+                                <button
+                                  class="deleteButton"
+                                  id="comment-item-t1_f36ge9a-button"
+                                >
+                                  <img
+                                    alt="delete icon"
+                                    src="deleteIcon.svg"
+                                  />
+                                </button>
+                              </div>
+                              <span
+                                class="commentBody"
+                              >
+                                <p
+                                  class="postBodyLine"
+                                  id="t1_f36ge9a-post-line-0"
+                                >
+                                  Good lord, I wanted to down vote this but realised you're the messenger, we don't shoot the messenger
+                                </p>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="column topLevelComment"
+                id="comment-item-t1_f35kuhk"
+              >
+                <div
+                  class="commentColumn"
+                >
+                  <div
+                    class="row"
+                  >
+                    <button
+                      class="authorLink"
+                    >
+                      OceLawless
+                    </button>
+                    <span
+                      class="fromNow"
+                    >
+                      7 months ago
+                    </span>
+                    <button
+                      class="deleteButton"
+                      id="comment-item-t1_f35kuhk-button"
+                    >
+                      <img
+                        alt="delete icon"
+                        src="deleteIcon.svg"
+                      />
+                    </button>
+                  </div>
+                  <span
+                    class="commentBody"
+                  >
+                    <p
+                      class="postBodyLine"
+                      id="t1_f35kuhk-post-line-0"
+                    >
+                      I'm gonna try this tonight op, and if it's shit I will come for you.
+                    </p>
+                    <p
+                      class="postBodyLine"
+                      id="t1_f35kuhk-post-line-1"
+                    >
+                      Edit: just got home. Getting in shower now.
+                    </p>
+                    <p
+                      class="postBodyLine"
+                      id="t1_f35kuhk-post-line-2"
+                    >
+                      Edit 2 electric boogaloo: risky click of the day. 
+[No bamboozle](https://imgur.com/a/u1C215L)
+                    </p>
+                    <p
+                      class="postBodyLine"
+                      id="t1_f35kuhk-post-line-3"
+                    >
+                      Edit 3: you!!!  I declare shenanigans.
+                    </p>
+                  </span>
+                </div>
+                <div
+                  class="childComments"
+                >
+                  <div
+                    class="column undefined"
+                    id="comment-item-t1_f35tfxh"
+                  >
+                    <div
+                      class="commentColumn"
+                    >
+                      <div
+                        class="row"
+                      >
+                        <button
+                          class="authorLink"
+                        >
+                          DaSwagCow
+                        </button>
+                        <span
+                          class="fromNow"
+                        >
+                          7 months ago
+                        </span>
+                        <button
+                          class="deleteButton"
+                          id="comment-item-t1_f35tfxh-button"
+                        >
+                          <img
+                            alt="delete icon"
+                            src="deleteIcon.svg"
+                          />
+                        </button>
+                      </div>
+                      <span
+                        class="commentBody"
+                      >
+                        <p
+                          class="postBodyLine"
+                          id="t1_f35tfxh-post-line-0"
+                        >
+                          So?
+                        </p>
+                      </span>
+                    </div>
+                    <div
+                      class="childComments"
+                    >
+                      <div
+                        class="column undefined"
+                        id="comment-item-t1_f35wht6"
+                      >
+                        <div
+                          class="commentColumn"
+                        >
+                          <div
+                            class="row"
+                          >
+                            <button
+                              class="authorLink"
+                            >
+                              OceLawless
+                            </button>
+                            <span
+                              class="fromNow"
+                            >
+                              7 months ago
+                            </span>
+                            <button
+                              class="deleteButton"
+                              id="comment-item-t1_f35wht6-button"
+                            >
+                              <img
+                                alt="delete icon"
+                                src="deleteIcon.svg"
+                              />
+                            </button>
+                          </div>
+                          <span
+                            class="commentBody"
+                          >
+                            <p
+                              class="postBodyLine"
+                              id="t1_f35wht6-post-line-0"
+                            >
+                              It's 3pm where I am. So still at work
+                            </p>
+                            <p
+                              class="postBodyLine"
+                              id="t1_f35wht6-post-line-1"
+                            >
+                              
+Edit:sorry lads I'm still at a bar. I will update ASAP no bamboozle.
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="column undefined"
+                        id="comment-item-t1_f35uh0q"
+                      >
+                        <div
+                          class="commentColumn"
+                        >
+                          <div
+                            class="row"
+                          >
+                            <button
+                              class="authorLink"
+                            >
+                              Killahcamcam
+                            </button>
+                            <span
+                              class="fromNow"
+                            >
+                              7 months ago
+                            </span>
+                            <button
+                              class="deleteButton"
+                              id="comment-item-t1_f35uh0q-button"
+                            >
+                              <img
+                                alt="delete icon"
+                                src="deleteIcon.svg"
+                              />
+                            </button>
+                          </div>
+                          <span
+                            class="commentBody"
+                          >
+                            <p
+                              class="postBodyLine"
+                              id="t1_f35uh0q-post-line-0"
+                            >
+                              It's shit.
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="column undefined"
+                    id="comment-item-t1_f35ltpb"
+                  >
+                    <div
+                      class="commentColumn"
+                    >
+                      <div
+                        class="row"
+                      >
+                        <button
+                          class="authorLink"
+                        >
+                          [deleted]
+                        </button>
+                        <span
+                          class="fromNow"
+                        >
+                          7 months ago
+                        </span>
+                        <button
+                          class="deleteButton"
+                          id="comment-item-t1_f35ltpb-button"
+                        >
+                          <img
+                            alt="delete icon"
+                            src="deleteIcon.svg"
+                          />
+                        </button>
+                      </div>
+                      <span
+                        class="commentBody"
+                      >
+                        <p
+                          class="postBodyLine"
+                          id="t1_f35ltpb-post-line-0"
+                        >
+                          [deleted]
+                        </p>
+                      </span>
+                    </div>
+                    <div
+                      class="childComments"
+                    >
+                      <div
+                        class="column undefined"
+                        id="comment-item-t1_f37esup"
+                      >
+                        <div
+                          class="commentColumn"
+                        >
+                          <div
+                            class="row"
+                          >
+                            <button
+                              class="authorLink"
+                            >
+                              OceLawless
+                            </button>
+                            <span
+                              class="fromNow"
+                            >
+                              7 months ago
+                            </span>
+                            <button
+                              class="deleteButton"
+                              id="comment-item-t1_f37esup-button"
+                            >
+                              <img
+                                alt="delete icon"
+                                src="deleteIcon.svg"
+                              />
+                            </button>
+                          </div>
+                          <span
+                            class="commentBody"
+                          >
+                            <p
+                              class="postBodyLine"
+                              id="t1_f37esup-post-line-0"
+                            >
+                              You, sonofabitch.
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="postBackground"
+      id="reddit-post"
+    >
+      <div
+        class="titleContainer"
+      >
+        <h3
+          class="subRedditHeader"
+        >
+          r/unpopularopinion
+        </h3>
+        <div
+          class="titleRow"
+        >
+          <span
+            class="score"
+          >
+            20.7k
+          </span>
+          <span
+            class="title"
+          >
+            Taking showers with your socks on is so much better than not
+          </span>
+        </div>
+      </div>
+      <div
+        class="postBuffer"
+      >
+        <div
+          class="column"
+        >
+          <div
+            class="postBody"
+          >
+            <div
+              class="postContent"
+            >
+              <p
+                class="postBodyLine"
+              >
+                I almost always shower with my socks on. It just feels more relaxing, I don’t really like the feeling of water below my feet. Having socks on, even light ones, feels like a nice towel to put around my feet when I’m showering. It’s just better this way. I’ve done this since I was like, 8, and I don’t ever plan on changing it. When I told my friends about it they all said it was really weird. I just think it is more comfortable, relaxing, and overall a better experience.
+              </p>
+              <p
+                class="postBodyLine"
+              >
+                Edit: jeez I really didn’t think that this was a big deal.
+              </p>
+              <p
+                class="postBodyLine"
+              >
+                Edit 2: To address some things:Yes, I actually do this, I personally like it, and it really isn’t problematic so I do it. My feet aren’t always super clean but I rub lotion on them occasionally.
+              </p>
+              <p
+                class="postBodyLine"
+              >
+                Edit 3: well I went to sleep, and now I have 953 notifications.
+              </p>
+            </div>
+            <div
+              class="row"
+            >
+              <img
+                alt="comment icon"
+                class="commentIcon"
+                src="commentIcon.svg"
+              />
+              <span
+                class="commentsLength"
+              >
+                16
+                 comments
+              </span>
+            </div>
+          </div>
+          <div
+            class="commentList"
+          >
+            <div
+              class="column topLevelComment"
+              id="comment-item-t1_f35vz2f"
+            >
+              <div
+                class="commentColumn"
+              >
+                <div
+                  class="row"
+                >
+                  <button
+                    class="authorLink"
+                  >
+                    RandomName01
+                  </button>
+                  <span
+                    class="fromNow"
+                  >
+                    7 months ago
+                  </span>
+                  <button
+                    class="deleteButton"
+                    id="comment-item-t1_f35vz2f-button"
+                  >
+                    <img
+                      alt="delete icon"
+                      src="deleteIcon.svg"
+                    />
+                  </button>
+                </div>
+                <span
+                  class="commentBody"
+                >
+                  <p
+                    class="postBodyLine"
+                    id="t1_f35vz2f-post-line-0"
+                  >
+                    Bruh
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="column topLevelComment"
+              id="comment-item-t1_f35nn9e"
+            >
+              <div
+                class="commentColumn"
+              >
+                <div
+                  class="row"
+                >
+                  <button
+                    class="authorLink"
+                  >
+                    shantanu011
+                  </button>
+                  <span
+                    class="fromNow"
+                  >
+                    7 months ago
+                  </span>
+                  <button
+                    class="deleteButton"
+                    id="comment-item-t1_f35nn9e-button"
+                  >
+                    <img
+                      alt="delete icon"
+                      src="deleteIcon.svg"
+                    />
+                  </button>
+                </div>
+                <span
+                  class="commentBody"
+                >
+                  <p
+                    class="postBodyLine"
+                    id="t1_f35nn9e-post-line-0"
+                  >
+                    97% Disagree it's the most unpopular opinion I've seen here after that guy who wanted to be pregnant
+                  </p>
+                </span>
+              </div>
+              <div
+                class="childComments"
+              >
+                <div
+                  class="column undefined"
+                  id="comment-item-t1_f361yrc"
+                >
+                  <div
+                    class="commentColumn"
+                  >
+                    <div
+                      class="row"
+                    >
+                      <button
+                        class="authorLink"
+                      >
+                        HansenTakeASeat
+                      </button>
+                      <span
+                        class="fromNow"
+                      >
+                        7 months ago
+                      </span>
+                      <button
+                        class="deleteButton"
+                        id="comment-item-t1_f361yrc-button"
+                      >
+                        <img
+                          alt="delete icon"
+                          src="deleteIcon.svg"
+                        />
+                      </button>
+                    </div>
+                    <span
+                      class="commentBody"
+                    >
+                      <p
+                        class="postBodyLine"
+                        id="t1_f361yrc-post-line-0"
+                      >
+                        Am I pregegnant or am I ok?
+                      </p>
+                    </span>
+                  </div>
+                  <div
+                    class="childComments"
+                  >
+                    <div
+                      class="column undefined"
+                      id="comment-item-t1_f36daww"
+                    >
+                      <div
+                        class="commentColumn"
+                      >
+                        <div
+                          class="row"
+                        >
+                          <button
+                            class="authorLink"
+                          >
+                            _Noot_Noot
+                          </button>
+                          <span
+                            class="fromNow"
+                          >
+                            7 months ago
+                          </span>
+                          <button
+                            class="deleteButton"
+                            id="comment-item-t1_f36daww-button"
+                          >
+                            <img
+                              alt="delete icon"
+                              src="deleteIcon.svg"
+                            />
+                          </button>
+                        </div>
+                        <span
+                          class="commentBody"
+                        >
+                          <p
+                            class="postBodyLine"
+                            id="t1_f36daww-post-line-0"
+                          >
+                            Can you get.....PREGANTE
+                          </p>
+                        </span>
+                      </div>
+                      <div
+                        class="childComments"
+                      >
+                        <div
+                          class="column undefined"
+                          id="comment-item-t1_f36fubr"
+                        >
+                          <div
+                            class="commentColumn"
+                          >
+                            <div
+                              class="row"
+                            >
+                              <button
+                                class="authorLink"
+                              >
+                                Macho_Mans_Ghost
+                              </button>
+                              <span
+                                class="fromNow"
+                              >
+                                7 months ago
+                              </span>
+                              <button
+                                class="deleteButton"
+                                id="comment-item-t1_f36fubr-button"
+                              >
+                                <img
+                                  alt="delete icon"
+                                  src="deleteIcon.svg"
+                                />
+                              </button>
+                            </div>
+                            <span
+                              class="commentBody"
+                            >
+                              <p
+                                class="postBodyLine"
+                                id="t1_f36fubr-post-line-0"
+                              >
+                                #AM I GREGNANT?!
+                              </p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="column undefined"
+                  id="comment-item-t1_f35y9gp"
+                >
+                  <div
+                    class="commentColumn"
+                  >
+                    <div
+                      class="row"
+                    >
+                      <button
+                        class="authorLink"
+                      >
+                        ShitOnMyArsehole
+                      </button>
+                      <span
+                        class="fromNow"
+                      >
+                        7 months ago
+                      </span>
+                      <button
+                        class="deleteButton"
+                        id="comment-item-t1_f35y9gp-button"
+                      >
+                        <img
+                          alt="delete icon"
+                          src="deleteIcon.svg"
+                        />
+                      </button>
+                    </div>
+                    <span
+                      class="commentBody"
+                    >
+                      <p
+                        class="postBodyLine"
+                        id="t1_f35y9gp-post-line-0"
+                      >
+                        Or the guy who likes sleeping in jeans
+                      </p>
+                      <p
+                        class="postBodyLine"
+                        id="t1_f35y9gp-post-line-1"
+                      >
+                        Edit: to everyone commenting, I meant the dude liked to get into bed at night with the duvet on with jeans, not just taking a nap
+                      </p>
+                    </span>
+                  </div>
+                  <div
+                    class="childComments"
+                  >
+                    <div
+                      class="column undefined"
+                      id="comment-item-t1_f36drup"
+                    >
+                      <div
+                        class="commentColumn"
+                      >
+                        <div
+                          class="row"
+                        >
+                          <button
+                            class="authorLink"
+                          >
+                            bellowingbullfinches
+                          </button>
+                          <span
+                            class="fromNow"
+                          >
+                            7 months ago
+                          </span>
+                          <button
+                            class="deleteButton"
+                            id="comment-item-t1_f36drup-button"
+                          >
+                            <img
+                              alt="delete icon"
+                              src="deleteIcon.svg"
+                            />
+                          </button>
+                        </div>
+                        <span
+                          class="commentBody"
+                        >
+                          <p
+                            class="postBodyLine"
+                            id="t1_f36drup-post-line-0"
+                          >
+                            Sleeping in jeans is fine on a couch or something, but not good in a bed under sheets.
+                          </p>
+                        </span>
+                      </div>
+                      <div
+                        class="childComments"
+                      >
+                        <div
+                          class="column undefined"
+                          id="comment-item-t1_f36efud"
+                        >
+                          <div
+                            class="commentColumn"
+                          >
+                            <div
+                              class="row"
+                            >
+                              <button
+                                class="authorLink"
+                              >
+                                ShitOnMyArsehole
+                              </button>
+                              <span
+                                class="fromNow"
+                              >
+                                7 months ago
+                              </span>
+                              <button
+                                class="deleteButton"
+                                id="comment-item-t1_f36efud-button"
+                              >
+                                <img
+                                  alt="delete icon"
+                                  src="deleteIcon.svg"
+                                />
+                              </button>
+                            </div>
+                            <span
+                              class="commentBody"
+                            >
+                              <p
+                                class="postBodyLine"
+                                id="t1_f36efud-post-line-0"
+                              >
+                                Yeah but you don't purposely go to bed in jeans like the poster did
+                              </p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="column undefined"
+                      id="comment-item-t1_f369ye5"
+                    >
+                      <div
+                        class="commentColumn"
+                      >
+                        <div
+                          class="row"
+                        >
+                          <button
+                            class="authorLink"
+                          >
+                            nikithb
+                          </button>
+                          <span
+                            class="fromNow"
+                          >
+                            7 months ago
+                          </span>
+                          <button
+                            class="deleteButton"
+                            id="comment-item-t1_f369ye5-button"
+                          >
+                            <img
+                              alt="delete icon"
+                              src="deleteIcon.svg"
+                            />
+                          </button>
+                        </div>
+                        <span
+                          class="commentBody"
+                        >
+                          <p
+                            class="postBodyLine"
+                            id="t1_f369ye5-post-line-0"
+                          >
+                            Or the guy who eats his cereal with water
+                          </p>
+                        </span>
+                      </div>
+                      <div
+                        class="childComments"
+                      >
+                        <div
+                          class="column undefined"
+                          id="comment-item-t1_f36ge9a"
+                        >
+                          <div
+                            class="commentColumn"
+                          >
+                            <div
+                              class="row"
+                            >
+                              <button
+                                class="authorLink"
+                              >
+                                Sazzybee
+                              </button>
+                              <span
+                                class="fromNow"
+                              >
+                                7 months ago
+                              </span>
+                              <button
+                                class="deleteButton"
+                                id="comment-item-t1_f36ge9a-button"
+                              >
+                                <img
+                                  alt="delete icon"
+                                  src="deleteIcon.svg"
+                                />
+                              </button>
+                            </div>
+                            <span
+                              class="commentBody"
+                            >
+                              <p
+                                class="postBodyLine"
+                                id="t1_f36ge9a-post-line-0"
+                              >
+                                Good lord, I wanted to down vote this but realised you're the messenger, we don't shoot the messenger
+                              </p>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="column topLevelComment"
+              id="comment-item-t1_f35kuhk"
+            >
+              <div
+                class="commentColumn"
+              >
+                <div
+                  class="row"
+                >
+                  <button
+                    class="authorLink"
+                  >
+                    OceLawless
+                  </button>
+                  <span
+                    class="fromNow"
+                  >
+                    7 months ago
+                  </span>
+                  <button
+                    class="deleteButton"
+                    id="comment-item-t1_f35kuhk-button"
+                  >
+                    <img
+                      alt="delete icon"
+                      src="deleteIcon.svg"
+                    />
+                  </button>
+                </div>
+                <span
+                  class="commentBody"
+                >
+                  <p
+                    class="postBodyLine"
+                    id="t1_f35kuhk-post-line-0"
+                  >
+                    I'm gonna try this tonight op, and if it's shit I will come for you.
+                  </p>
+                  <p
+                    class="postBodyLine"
+                    id="t1_f35kuhk-post-line-1"
+                  >
+                    Edit: just got home. Getting in shower now.
+                  </p>
+                  <p
+                    class="postBodyLine"
+                    id="t1_f35kuhk-post-line-2"
+                  >
+                    Edit 2 electric boogaloo: risky click of the day. 
+[No bamboozle](https://imgur.com/a/u1C215L)
+                  </p>
+                  <p
+                    class="postBodyLine"
+                    id="t1_f35kuhk-post-line-3"
+                  >
+                    Edit 3: you!!!  I declare shenanigans.
+                  </p>
+                </span>
+              </div>
+              <div
+                class="childComments"
+              >
+                <div
+                  class="column undefined"
+                  id="comment-item-t1_f35tfxh"
+                >
+                  <div
+                    class="commentColumn"
+                  >
+                    <div
+                      class="row"
+                    >
+                      <button
+                        class="authorLink"
+                      >
+                        DaSwagCow
+                      </button>
+                      <span
+                        class="fromNow"
+                      >
+                        7 months ago
+                      </span>
+                      <button
+                        class="deleteButton"
+                        id="comment-item-t1_f35tfxh-button"
+                      >
+                        <img
+                          alt="delete icon"
+                          src="deleteIcon.svg"
+                        />
+                      </button>
+                    </div>
+                    <span
+                      class="commentBody"
+                    >
+                      <p
+                        class="postBodyLine"
+                        id="t1_f35tfxh-post-line-0"
+                      >
+                        So?
+                      </p>
+                    </span>
+                  </div>
+                  <div
+                    class="childComments"
+                  >
+                    <div
+                      class="column undefined"
+                      id="comment-item-t1_f35wht6"
+                    >
+                      <div
+                        class="commentColumn"
+                      >
+                        <div
+                          class="row"
+                        >
+                          <button
+                            class="authorLink"
+                          >
+                            OceLawless
+                          </button>
+                          <span
+                            class="fromNow"
+                          >
+                            7 months ago
+                          </span>
+                          <button
+                            class="deleteButton"
+                            id="comment-item-t1_f35wht6-button"
+                          >
+                            <img
+                              alt="delete icon"
+                              src="deleteIcon.svg"
+                            />
+                          </button>
+                        </div>
+                        <span
+                          class="commentBody"
+                        >
+                          <p
+                            class="postBodyLine"
+                            id="t1_f35wht6-post-line-0"
+                          >
+                            It's 3pm where I am. So still at work
+                          </p>
+                          <p
+                            class="postBodyLine"
+                            id="t1_f35wht6-post-line-1"
+                          >
+                            
+Edit:sorry lads I'm still at a bar. I will update ASAP no bamboozle.
+                          </p>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="column undefined"
+                      id="comment-item-t1_f35uh0q"
+                    >
+                      <div
+                        class="commentColumn"
+                      >
+                        <div
+                          class="row"
+                        >
+                          <button
+                            class="authorLink"
+                          >
+                            Killahcamcam
+                          </button>
+                          <span
+                            class="fromNow"
+                          >
+                            7 months ago
+                          </span>
+                          <button
+                            class="deleteButton"
+                            id="comment-item-t1_f35uh0q-button"
+                          >
+                            <img
+                              alt="delete icon"
+                              src="deleteIcon.svg"
+                            />
+                          </button>
+                        </div>
+                        <span
+                          class="commentBody"
+                        >
+                          <p
+                            class="postBodyLine"
+                            id="t1_f35uh0q-post-line-0"
+                          >
+                            It's shit.
+                          </p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="column undefined"
+                  id="comment-item-t1_f35ltpb"
+                >
+                  <div
+                    class="commentColumn"
+                  >
+                    <div
+                      class="row"
+                    >
+                      <button
+                        class="authorLink"
+                      >
+                        [deleted]
+                      </button>
+                      <span
+                        class="fromNow"
+                      >
+                        7 months ago
+                      </span>
+                      <button
+                        class="deleteButton"
+                        id="comment-item-t1_f35ltpb-button"
+                      >
+                        <img
+                          alt="delete icon"
+                          src="deleteIcon.svg"
+                        />
+                      </button>
+                    </div>
+                    <span
+                      class="commentBody"
+                    >
+                      <p
+                        class="postBodyLine"
+                        id="t1_f35ltpb-post-line-0"
+                      >
+                        [deleted]
+                      </p>
+                    </span>
+                  </div>
+                  <div
+                    class="childComments"
+                  >
+                    <div
+                      class="column undefined"
+                      id="comment-item-t1_f37esup"
+                    >
+                      <div
+                        class="commentColumn"
+                      >
+                        <div
+                          class="row"
+                        >
+                          <button
+                            class="authorLink"
+                          >
+                            OceLawless
+                          </button>
+                          <span
+                            class="fromNow"
+                          >
+                            7 months ago
+                          </span>
+                          <button
+                            class="deleteButton"
+                            id="comment-item-t1_f37esup-button"
+                          >
+                            <img
+                              alt="delete icon"
+                              src="deleteIcon.svg"
+                            />
+                          </button>
+                        </div>
+                        <span
+                          class="commentBody"
+                        >
+                          <p
+                            class="postBodyLine"
+                            id="t1_f37esup-post-line-0"
+                          >
+                            You, sonofabitch.
+                          </p>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
