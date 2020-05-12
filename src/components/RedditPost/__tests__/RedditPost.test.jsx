@@ -295,7 +295,6 @@ describe.only("RedditPost", () => {
   it("should render correctly", () => {
     const redditPost = render(<RedditPost {...PROPS} />);
     expect(redditPost).not.toBeNull();
-    expect(redditPost).toMatchSnapshot();
   });
 
   it("should correctly delete comment and its children", () => {

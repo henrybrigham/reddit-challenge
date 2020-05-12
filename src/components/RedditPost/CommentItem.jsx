@@ -44,7 +44,7 @@ const CommentItem = ({ comment, comments, deleteComment, className }) => {
         <div className={styles.row}>
           {/** React throws a warning if there's an a tag without an href so they recommend using a button instead*/}
           <button className={styles.authorLink}>{author}</button>
-          <span className={styles.fromNow}>{timeFrom}</span>
+          <span className={styles.fromNow}>- {timeFrom}</span>
           <button
             onClick={deleteFunction}
             className={styles.deleteButton}
