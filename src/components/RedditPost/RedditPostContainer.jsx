@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import { isEmpty } from "lodash";
 import { getPost } from "api";
 import RedditPost from "./RedditPost";
+import loading from "assets/loading.gif";
 
 export default class RedditPostContainer extends PureComponent {
   constructor() {
@@ -27,7 +28,7 @@ export default class RedditPostContainer extends PureComponent {
   render() {
     const { isFetching, error, post } = this.state;
     if (isFetching || (isEmpty(post) && !error)) {
-      return <h1>loading...</h1>;
+      return <img src={loading} alt="loading" />;
     }
 
     if (error) {
